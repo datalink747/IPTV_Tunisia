@@ -3,9 +3,7 @@ Android TV Project
 
 [![Ansible Role](https://img.shields.io/badge/Developer-Soussidev-yellow.svg)]()
 [![Hex.pm](https://img.shields.io/hexpm/l/plug.svg)]()
-
 <br>
-```
 
 # SDK Required
 + Target sdk:<br>
