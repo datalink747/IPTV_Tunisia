@@ -5,6 +5,13 @@ Android TV Project
 [![Hex.pm](https://img.shields.io/hexpm/l/plug.svg)]()
 <br>
 
+# Preview :
+* IPTV :
+
+<br>
+<img src="IPTV.gif" height="450" width="580">&nbsp;
+<br>
+
 # SDK Required
 + Target sdk:<br>
 [![API](https://img.shields.io/badge/API-26%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=26+)
