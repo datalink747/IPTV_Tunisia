@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v17.leanback.widget.NonOverlappingLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/header_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:backgroundTintMode="multiply"
+        android:tint="@color/blanc"
+        />
+
+    <TextView
+        android:id="@+id/header_label"
+        android:textColor="@color/blanc"
+        android:textSize="15dp"
+        android:paddingLeft="5dp"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content" />
+</android.support.v17.leanback.widget.NonOverlappingLinearLayout>

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">IPTV Tunisia</string>
+    <string name="browse_title"><![CDATA[IPTVTunisia]]></string>
+
+    <!-- Developer Apps -->
+    <string name="dev_name">Développeur : Soussi Mohamed</string>
+    <string name="dev_description">Cette Application est basé sur IPTV.\n soussi.mohamed747@gmail.com
+    </string>
+    <string name="dev_email">soussi.mohamed747@gmail.com</string>
+    <string name="dev_social">https://www.linkedin.com/in/soussimohamed</string>
+    <!-- Dialog Interface -->
+    <string name="btn_dialog_return">Fermer</string>
+    <string name="btn_dialog_social">Linkedin</string>
+    <!-- Menu Header -->
+    <string name="menu_channel">Chaines IP</string>
+    <string name="menu_vod">VOD</string>
+    <string name="menu_category">Catégories</string>
+    <string name="menu_settings">Paramétre</string>
+    <string name="menu_propos">A propos</string>
+    <!-- Menu Header Detail Fragmen -->
+    <string name="btn_menu_retour">Retour</string>
+    <string name="btn_menu_regarder">Régarder</string>
+    <string name="btn_menu_siteweb">Consulter Site Web</string>
+    <string name="btn_menu_epg">EPG</string>
+    <!-- Detail Fresenter Custom-->
+    <string name="presenter_categorie">Catégorie : </string>
+    <string name="presenter_dure">Durée : </string>
+    <string name="presenter_lang">Langage : </string>
+    <string name="presenter_quality">Inconnu</string>
+    <string name="presenter_description">Déscription : </string>
+    <string name="presenter_custom_text_open">Lire Tout</string>
+    <string name="presenter_custom_text_close">Retour </string>
+    <!-- Error messages -->
+    <string name="video_error_media_load_timeout">Media loading timed out</string>
+    <string name="error_channel">Adresse IPTV est Vide </string>
+    <string name="error_vod">Imposible de Trouver l\'adresse VOD</string>
+    <string name="error_siteweb">Site Web n\'est pas Disponible</string>
+    <string name="error_annuler">Annuler</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

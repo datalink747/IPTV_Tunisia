@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textview_titre"
+        style="@style/Widget.Leanback.DetailsDescriptionTitleStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-light"
+        android:text="titre"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textview_cat"
+            style="@style/Widget.Leanback.DetailsDescriptionSubtitleStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="18dp"
+            android:text="category"/>
+
+        <TextView
+            android:id="@+id/textview_time"
+            style="@style/Widget.Leanback.DetailsDescriptionSubtitleStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:drawableLeft="@drawable/lb_ic_loop"
+            android:drawableTint="@color/blanc"
+            android:drawableTintMode="multiply"
+            android:textSize="18dp"
+            android:text="time"/>
+
+        <TextView
+            android:id="@+id/textview_lang"
+            style="@style/Widget.Leanback.DetailsDescriptionSubtitleStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="18dp"
+            android:text="langage"/>
+
+        <TextView
+            android:id="@+id/textview_contenu"
+            style="@style/Widget.Leanback.DetailsDescriptionSubtitleStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="15dp"
+            android:textColor="@color/selected_background"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/lb_ic_hq"
+            android:drawableTint="@color/blanc"
+            android:drawableTintMode="multiply"
+            android:text="..."/>
+
+        <TextView
+            android:id="@+id/textview_date"
+            style="@style/Widget.Leanback.DetailsDescriptionSubtitleStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="15dp"
+            android:textColor="@color/blanc"
+            android:textStyle="bold"
+            android:drawableTint="@color/blanc"
+            android:drawableTintMode="multiply"
+            android:text="..."/>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textview_name_discription"
+        style="@style/Widget.Leanback.DetailsDescriptionBodyStyle"
+        android:layout_width="match_parent"
+        android:fontFamily="sans-serif-regular"
+        android:layout_height="wrap_content"
+        android:drawableTint="@color/blanc"
+        android:drawableTintMode="multiply"
+        android:drawableLeft="@drawable/lb_ic_pip"/>
+
+    <TextView
+        android:id="@+id/textview_discription"
+        style="@style/Widget.Leanback.DetailsDescriptionBodyStyle"
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:fontFamily="sans-serif-regular"
+        android:layout_height="wrap_content"
+        />
+
+
+    <TableLayout
+        android:id="@+id/presenterdetailProgramme_Table"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="false"
+        android:background="@color/transparent2"
+        android:layout_marginTop="1dp"
+        android:elevation="15dp"
+        android:orientation="horizontal"
+        android:showDividers="beginning"
+        android:scrollbars="vertical">
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+        <TextView
+            android:id="@+id/presenterDate_start_programme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="..."
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:textSize="14dp"
+            android:layout_marginRight="40dp"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/lb_ic_guidedactions_item_chevron"
+            android:textColor="@color/selected_background"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/presenterDate_end_programme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="..."
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:textSize="14dp"
+            android:drawablePadding="10dp"
+            android:drawableTintMode="multiply"
+            android:drawableTint="@color/blanc"
+            android:drawableLeft="@drawable/lb_ic_guidedactions_item_chevron"
+            android:textColor="@color/selected_background"
+            android:textStyle="bold"
+
+            />
+        </LinearLayout>
+    </TableRow>
+
+        <View
+            android:id="@+id/View1"
+            android:layout_width="wrap_content"
+            android:layout_height="1dip"
+            android:layout_marginBottom="1dip"
+            android:layout_marginTop="1dip"
+            android:background="@color/colorPrimary2" >
+        </View>
+
+    <TextView
+        android:id="@+id/presenterTitre_programme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="...."
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"
+        android:paddingBottom="5dp"
+        android:drawableLeft="@mipmap/icon_titre"
+        android:drawablePadding="10dp"
+        android:textColor="@color/blanc"
+        android:textStyle="bold"
+        android:stretchColumns="1"
+        />
+        <View
+            android:id="@+id/View2"
+            android:layout_width="wrap_content"
+            android:layout_height="1dip"
+            android:layout_marginBottom="1dip"
+            android:layout_marginTop="1dip"
+            android:background="@color/colorPrimary2" >
+        </View>
+
+        <TextView
+            android:id="@+id/presenterDiscription_programme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="...."
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:textSize="15dp"
+            android:paddingBottom="10dp"
+            android:drawableLeft="@drawable/lb_ic_pip"
+            android:drawablePadding="10dp"
+            android:textColor="@color/blanc"
+            android:textStyle="italic"
+
+            />
+
+
+    </TableLayout>
+
+</LinearLayout>
